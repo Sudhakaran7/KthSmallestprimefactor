@@ -1,0 +1,56 @@
+You are given with a sorted list A which contain 1 and some other prime numbers, Then, for every p < q in the list, we consider the fraction p/q.
+you are given with a k, find the kth fraction of the array.
+
+Input Description:
+First line contains, n and k, n is the size of the array and k is the target we have to find fraction
+Second line contains, n elements of prime numbers (1<n,k<1000)
+
+Output Description:
+Kth smallest fraction
+
+Sample Input:
+5 3
+1 3 5 9 11
+
+Sample Output:
+1 5
+
+Explanation:
+The fractions are,
+1/11, 1/9, 1/5, 1/3, 3/11, 3/9, 3/5, 5/11, 5/9, 9/11
+k=3, kth fraction is 1/5
+
+Sample Input:
+4 2
+3 5 11 17
+
+Sample Output:
+3 11
+
+Sample Input:
+7 7
+3 5 7 13 17 23 29
+
+Sample Output:
+7 29
+
+Sample Input:
+2 1
+117 123
+
+Sample Output:
+117 123
+
+Sample Input:
+3 2
+47 57 67
+
+Sample Output:
+47 57
+
+Sample Input:
+5 5
+43 47 57 67 77
+
+Sample Output:
+57 77
